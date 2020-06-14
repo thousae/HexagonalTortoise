@@ -10,6 +10,9 @@ public class NumberedButton extends JButton {
 	private NumberedButton(final String imageName) {
 		super(new ImageIcon(Util.getResourcesPath(imageName)));
 		this.setBorder(BorderFactory.createEmptyBorder());
+		this.setBorderPainted(false);
+      		this.setContentAreaFilled(false);
+      		this.setFocusPainted(false);
 	}
 
 	public NumberedButton(final int i) {
