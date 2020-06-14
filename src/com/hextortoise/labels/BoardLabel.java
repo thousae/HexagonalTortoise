@@ -15,7 +15,7 @@ public class BoardLabel extends JLabel {
 		try {
 			aquaFont = Font.createFont(
 					Font.TRUETYPE_FONT,
-					new File(Util.getResourcesPath("a아쿠아리움.otf"))
+					new File(Util.getResourcesPath("a아쿠아리움.ttf"))
 			);
 		} catch (Exception exception) {
 			aquaFont = new JLabel().getFont();
